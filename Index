@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Sad Hotdog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="ChefHotdog.css">
+    <link rel="stylesheet" href="CookHotdog.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg sticky-top" id="website-navbar" style="background-color:rgba(255, 255, 255, 0.5)">
+        <div class="container-fluid">
+          <img src="./HotdogArsenal/Hotlog.jpg" alt="" height="50px">
+          &NonBreakingSpace;
+          &NonBreakingSpace;
+          A Hotdog Guide
+          <div class="collapse navbar-collapse" id="desk navbarSupportedContent navbar-target">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Intro">Top of Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#History">Brief History of Hotdogs</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Scroll to:
+                </a>
+              </li>
+            </ul>
+          </div>
+        <!--
+            <div class="collapse navbar-collapse" id="phone navbarSupportedContent navbar-target">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Scroll to:
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#pageteleport">Top of Page</a></li>
+                          <li><a class="dropdown-item" href="#BagelDog">Bagel Dog</a></li>
+                          <li><a class="dropdown-item" href="#HotDogCup">Hotdog Cup</a></li>
+                          <li><a class="dropdown-item" href="#Corndog">Corndog</a></li>
+                        </ul>
+                      </li>
+                </ul>
+            </div>
+        -->
+        </div>
+      </nav>
+      <table border="1" id="pageteleport" class="col-12">
+        <tbody><tr>
+          <th id="TopDog">
+            <a href="./HotdogMain.html">Main Page</a>
+          </th>
+          <th>
+            <a href="./Hotdog Recipe.html">Hotdog Recipes</a>
+          </th>
+          </tr></tbody>
+      </table>
+    </div>
+  </div>
+  <div>
+    <div id="Intro">
+      <div class="container-fluid py-2" id="jumbo ">
+        <h1 class="display-3 fw-bold" id="white">A Hotdog Guide</h1>
+        <p class="col-md-8 fs-4" id="white">Your guide to hotdogs.</p>
+      </div>
+    </div>
+    <div id="History">
+      <h1 class="display-5 fw-bold" id="white">History</h1>
+      <p id="translightblack"> The origin of the hotdog is extremely disputed, so let's start with the sausage. The sausage was invented in many places around the world, and this is because it was an answer to two problems. <br> The first was that meat needed to be preserved to be eaten later, and the second that small bits of meat would usually be wasted. Thus, it is very hard to trace the exact origin of the sausage. <br> However, we can say that the first sausage came from the Sumerian culture in what is now Iraq.</p>
+      <p id="translightblack"> The sausage travelled around Europe, making its way to Germany where the Germans adopted it as its own. During the 1800s, German immigrants came to the New World, thus bringing the hotdog with them. <br> It's generally agreed that they were the first to sell them from a pushcart then. There are many theories on how the Hotdog became popular in the US, but eventually the hotdog became so well known that when President Franklin Roosevelt hosted King George VI of England and his queen at a picnic in Hyde Park in 1939, first lady Eleanor made grilled hot dogs as part of the menu. </p>
+    </div>
+  </div>
+  <p id="credits">
+    Credits:
+    Photos by <a href="https://unsplash.com/@ballparkbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ball Park Brand</a> and <a href="https://unsplash.com/es/@phsecan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Peter Secan</a> on <a href="https://unsplash.com/s/photos/hot-dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    Info by <a href="https://www.history.com/news/break-out-the-buns-the-history-of-the-hot-dog">History.com</a> and <a href="https://theculturetrip.com/north-america/usa/articles/a-brief-history-of-the-hot-dog/">The Culture Trip</a>.
+  </p>
+  <!-- Popover Intialization -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  </body>
+</html>
