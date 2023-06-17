@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotdog Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="ChefHotdog.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+        <nav class="navbar navbar-expand-lg sticky-top" id="website-navbar" style="background-color:rgba(255, 255, 255, 0.5)">
+            <div class="container-fluid">
+            <img src="./HotdogArsenal/Hotlog.jpg" alt="" height="50px">
+            &NonBreakingSpace;
+            &NonBreakingSpace;
+            A Hotdog Guide
+            <div class="collapse navbar-collapse" id="desk navbarSupportedContent navbar-target">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Top of Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#BagelDog">Bagel Dog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#HotDogCup">Hot Dog Cup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Corndog">Corndog</a>
+                    </li>
+                </ul>
+            </div>
+        <!--
+            <div class="collapse navbar-collapse" id="phone navbarSupportedContent navbar-target">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Scroll to:
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#pageteleport">Top of Page</a></li>
+                          <li><a class="dropdown-item" href="#BagelDog">Bagel Dog</a></li>
+                          <li><a class="dropdown-item" href="#HotDogCup">Hotdog Cup</a></li>
+                          <li><a class="dropdown-item" href="#Corndog">Corndog</a></li>
+                        </ul>
+                      </li>
+                </ul>
+            </div>
+        -->
+        </nav>
+    <div>
+        <table border="1" id="pageteleport" class="col-12">
+            <tbody>
+                <tr>
+                    <th id="NotTopDog">
+                        <a href="./HotdogMain.html">Main Page</a>
+                    </th>
+                    <th id="TopDog">
+                        <a href="./Hotdog Recipe.html">Hotdog Recipes</a>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <div class="container-fluid py-2" id="jumbo">
+            <h1 id="white" class="display-3">Recipes for Hotdogs</h1>
+        </div>
+    </di>
+    <div id="nospace">
+        <div>
+            <h2 class="display-5 fw-bold" id="BagelDog">Bagel Dog</h2>
+            <p id="translightblack">This recipe uses a bagel-like wrap for the sausages rather than the traditional bun. It yields 8 bagel dogs and takes just 5 minutes to prepare and 35 minutes to finish making. From <a href="https://www.delish.com/cooking/recipe-ideas/recipes/a48238/everything-bagel-dogs-recipe/">Delish</a>.</p>
+            <div>
+                <h3 id="transblack">Ingredients</h3>
+                <ul type="square" id="translightblack">
+                    <li>
+                        <p>For the Seasoning</p>
+                        <ul>
+                            <li>2 tbsp. poppy seeds</li>
+                            <li>2 tbsp. dried minced onion</li>
+                            <li>2 tbsp. sesame seeds</li>
+                            <li>2 tsp. garlic powder</li>
+                            <li>1 tsp. Coarse salt</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>For the Bagel Hotdogs</p>
+                        <ul>
+                            <li>1 package puff pastry, thawed</li>
+                            <li>1 package cream cheese, softened</li>
+                            <li>1 package hot dogs</li>
+                            <li>1 1/2 c. water</li>
+                            <li>2 tbsp. baking soda</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3 id="transblack">Directions</h3>
+                <ol type="i" id="translightblack">
+                    <li>Preheat the oven to 400°.</li>
+                    <li>Make the seasoning: Combine all ingredients for the seasoning into a small bowl, stirring until well blended. Set aside.</li>
+                    <li>Make the Bagel Hot Dogs: Slice the puff pastry into 1" strips lengthwise. Spread cream cheese along each strip, then roll around a hot dog, covering it from end to end. Set aside.</li>
+                    <li>Microwave water until it starts to steam a little, about 1 minute. Pour into a large bowl, stirring in baking soda until dissolved. Dip each hot dog into the baking soda-water mixture, then place on a parchment-lined baking sheet. Liberally sprinkle each hot dog with seasoning. Bake until the pastry has puffed up and turned a light golden brown, 10 to 12 minutes.</li>
+                </ol>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h2 class="display-5 fw-bold" id="HotDogCup">Hot Dog Cup</h2>
+            <p id="translightblack">This recipe is perfect for a portable treat. It yields 16 cups. It takes only 10 minutes to prepare and 35 minutes total to make. Also from Delish, you can find it <a href="https://www.delish.com/cooking/recipe-ideas/recipes/a56269/chili-cheese-dog-cups-recipe/">here</a>.</p>
+            <div>
+                <h3 id="transblack">Ingredients</h3>
+                <ul type="square" id="translightblack">
+                    <li>1 can refrigerated biscuit dough</li>
+                    <li>Cooking spray, for pan</li>
+                    <li>1 can chili, such as Homel</li>
+                    <li>8 hot dogs, sliced</li>
+                    <li>1 c. Cheddar cheese</li>
+                    <li>1 egg, whisked</li>
+                    <li>1/2 Onion, finely chopped</li>
+                    <li>1 tsp. chives, for garnish</li>
+                </ul>
+            </div>
+            <div>
+                <h3 id="transblack">Directions</h3>
+                <ol type="i" id="translightblack">
+                    <li>Preheat oven to 325º F. Grease 2 muffin trays with nonstick cooking spray.</li>
+                    <li>Carefully slice biscuits in half and press into the inside of the muffin cups.</li>
+                    <li>Spoon heaping tablespoons of chili into the biscuit cups and top with 4-5 slices hot dog and a sprinkling of cheddar cheese.</li>
+                    <li>Brush overhanging biscuit dough with egg wash and bake until golden, 20-25 minutes. Top with onion and chives and serve.</li>
+                </ol>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h2 class="display-5 fw-bold" id="Corndog">Corndog</h2>
+            <p id="translightblack">This recipe is very easy to make. It yields 8 servings. It takes only 15 minutes to prepare and 40 minutes total to make. From The Pioneer Woman, you can find it <a href="https://www.thepioneerwoman.com/food-cooking/recipes/a39993670/homemade-corndog-recipe/">here</a>.</p>
+            <div>
+                <h3 id="transblack">Ingredients</h3>
+                <ul type="square" id="translightblack">
+                    <li>8 beef hotdogs</li>
+                    <li>Cornstarch</li>
+                    <li>1 c. yellow cornmeal</li>
+                    <li>1 c. all-purpose flour</li>
+                    <li>1 tbsp. granulated sugar</li>
+                    <li>2 tsp. baking powder</li>
+                    <li>1 1/2 tsp. kosher salt</li>
+                    <li>1/4 tsp. ground red pepper</li>
+                    <li>1c. + 2 tbsp. whole milk</li>
+                    <li>2 tbsp. vegetavke oil</li>
+                    <li>2 tbsp. honey</li>
+                    <li>1 large egg</li>
+                    <li>Vegetable oil (for frying)</li>
+                </ul>
+            </div>
+            <div>
+                <h3 id="transblack">Directions</h3>
+                <ol type="i" id="translightblack">
+                    <li>Pat each hot dog dry with a paper towel. Thread each hot dog onto a 6-inch skewer, leaving about 2 inches of the skewer as a handle.</li>
+                    <li>Lightly sprinkle the hot dogs with cornstarch. Using your fingers, rub the cornstarch evenly over the hot dogs to form a very light coating. Set aside.</li>
+                    <li>Whisk together the cornmeal, flour, sugar, baking powder, salt and red pepper in a medium bowl. Whisk together the milk, vegetable oil, honey and egg in another bowl. Add the milk mixture to the cornmeal mixture and whisk until smooth. Let stand at least 5 minutes.</li>
+                    <li>Add vegetable oil to a Dutch oven to a depth of about 2 1/2 inches. Heat over medium heat until the oil reaches 350°.</li>
+                    <li>While the oil heats up, transfer the batter to a tall glass that is taller than the hot dogs. Working with one hot dog at a time, dip the hot dog into the batter, twisting it to coat it completely with the batter. While still twisting, remove the hot dog from the batter and lower it diagonally in the hot oil, twirling it by the stick for 5 seconds to set the coating. Let go of the stick and fry until the hot dog is browned on all sides, turning with tongs, about 3 minutes. (You can fry up to 3 corn dogs at a time depending on the size of your pot, just be careful to avoid overcrowding the pan.) Remove from the hot dogs from the oil and place on a paper towel lined plate. Repeat with the remaining hot dogs.</li>
+                    <li>Serve corn dogs with mustard and ketchup.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+  <p id="credits">
+    Credits: Photos by <a href="https://unsplash.com/@ballparkbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ball Park Brand</a> on <a href="https://unsplash.com/s/photos/hot-dog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </p>
+  <!-- Popover Intialization -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  </body>
+</html>
